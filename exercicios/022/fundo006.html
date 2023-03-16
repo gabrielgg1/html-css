@@ -7,17 +7,26 @@
     <title>Fundo fixo de tela</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            shorthand = background | APENAS NÃO FUNCIONA O [SIZE (contain e cover) tem de ser postos separados]
+
+            color > image > position > repeat > [-size-] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -31,6 +40,8 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque reprehenderit exercitationem dolor nisi. Suscipit aperiam quod velit quaerat repellat dolorum iste, illum mollitia optio numquam maxime illo est vitae culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sit iure, eius, doloremque atque cupiditate quidem, similique beatae enim tempore labore corrupti quam? Quae, expedita aut explicabo consectetur suscipit debitis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum delectus a magni, nostrum veritatis impedit incidunt earum beatae quas ullam. Fuga provident repellendus quisquam modi dolorum soluta explicabo quaerat totam!</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque reprehenderit exercitationem dolor nisi. Suscipit aperiam quod velit quaerat repellat dolorum iste, illum mollitia optio numquam maxime illo est vitae culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sit iure, eius, doloremque atque cupiditate quidem, similique beatae enim tempore labore corrupti quam? Quae, expedita aut explicabo consectetur suscipit debitis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum delectus a magni, nostrum veritatis impedit incidunt earum beatae quas ullam. Fuga provident repellendus quisquam modi dolorum soluta explicabo quaerat totam!</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque reprehenderit exercitationem dolor nisi. Suscipit aperiam quod velit quaerat repellat dolorum iste, illum mollitia optio numquam maxime illo est vitae culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sit iure, eius, doloremque atque cupiditate quidem, similique beatae enim tempore labore corrupti quam? Quae, expedita aut explicabo consectetur suscipit debitis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum delectus a magni, nostrum veritatis impedit incidunt earum beatae quas ullam. Fuga provident repellendus quisquam modi dolorum soluta explicabo quaerat totam!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque reprehenderit exercitationem dolor nisi. Suscipit aperiam quod velit quaerat repellat dolorum iste, illum mollitia optio numquam maxime illo est vitae culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sit iure, eius, doloremque atque cupiditate quidem, similique beatae enim tempore labore corrupti quam? Quae, expedita aut explicabo consectetur suscipit debitis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum delectus a magni, nostrum veritatis impedit incidunt earum beatae quas ullam. Fuga provident repellendus quisquam modi dolorum soluta explicabo quaerat totam!</p>
+        
     </main>
 </body>
 </html>

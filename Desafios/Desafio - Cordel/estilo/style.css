@@ -48,18 +48,12 @@ header p {
     padding-bottom: 50px;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--fonte03);
 }
 
 section.normal {
@@ -71,11 +65,19 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgba(2, 2, 2, 0.897)
+    background-color: rgba(2, 2, 2, 0.897);
     color: white;
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.418);
 } 
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
